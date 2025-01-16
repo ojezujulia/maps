@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Warszawa_Marynarska - Turystyczne</name>
+    <description/>
+    <Style id="icon-1499-000000-nodesc-normal">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1499-000000-nodesc-highlight">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1499-000000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1499-000000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1499-000000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Marynarska</name>
+      <Placemark>
+        <name>Marynarska 10</name>
+        <styleUrl>#icon-1499-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9945824,52.1803281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Linia 2</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9945824,52.1803281,0
+            20.9947342,52.2279278,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 3</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9945824,52.1803281,0
+            20.9945071,52.1443686,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 4</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9945824,52.1803281,0
+            21.0559618,52.1807558,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 5</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9945824,52.1803281,0
+            20.9333956,52.1801243,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Henryka Mierzejewskiego</name>
+        <styleUrl>#icon-1499-000000-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9527907,52.20868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Linia 6</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9527907,52.20868,0
+            20.9525075,52.2397008,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 7</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9527907,52.20868,0
+            20.8999791,52.1934245,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 8</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9527907,52.20868,0
+            20.9068455,52.2232993,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 9</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9945824,52.1803281,0
+            21.0369648,52.1540008,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 10</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9945824,52.1803281,0
+            21.036817,52.2105455,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 11</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9945824,52.1803281,0
+            20.9504714,52.1536026,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 12</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9527907,52.20868,0
+            20.9367385,52.1776096,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Linia 13</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            20.9527907,52.20868,0
+            21.0014548,52.2325242,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>atrakcje</name>
+      <Placemark>
+        <name>Pałac Kultury i Nauki</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.005995,52.231838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muzeum Życia w PRL</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0164752,52.2234186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Warszawskie Muzeum Komputerow i Gier</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0044044,52.2169335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Staw Główny Pola Mokotowskiego</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9963905,52.2106605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tor treningowy wyścigów konnych Służewiec</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0002804,52.1667418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Służewski Dom Kultury</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0246315,52.1683881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Filmoteka Narodowa - Instytut Audiowizualny</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0319492,52.1731995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muzeum Historii Polskiego Ruchu Ludowego</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0340653,52.1775307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dom Kultury Kadr</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0031328,52.1755101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fort Mokotów</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9977173,52.194689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Och-Teatr</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9800158,52.2144532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punkt 12</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9593204,52.205407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punkt 13</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0256242,52.2063012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nowy Teatr Międzynarodowe Centrum Kultury</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0200014,52.2052786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muzeum Żołnierzy Wyklętych i Więźniów Politycznych PRL</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0109348,52.2076993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muzeum Geologiczne w Warszawie</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.012402,52.2102473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punkt 14</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0303019,52.2150331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centrum Sztuki Współczesnej Zamek Ujazdowski w Warszawie</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0304445,52.2195765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Interaktywne Muzeum Flipperów "Pinball Station"]]></name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9782156,52.2245891,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Niewidzialna Wystawa</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9911296,52.2249493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Progresja</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9288555,52.2248057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kopiec Moczydłowski</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9551087,52.2409669,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EXPO XXI</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9621291,52.2249807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muzeum Gazowni Warszawskiej</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9666344,52.2265662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muzeum Powstania Warszawskiego</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9810184,52.2323936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cosmos Muzeum Warszawa</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.987699,52.2322053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ADN Centrum Konferencyjne Sp. z o.o Sp.k.</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9880656,52.2352432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Królikarnia - Park rzeźby</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.025752,52.1898318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punkt 15</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0274027,52.1906391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punkt 16</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0307623,52.1680717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punkt 17</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0178572,52.2193693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Punkt 19</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0098941,52.2206264,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Fort V ("Włochy")]]></name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9144175,52.1957202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cmentarz Mauzoleum Żołnierzy Armii Czerwonej</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9877137,52.2027517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cmentarz parafii św.Franciszka z Asyżu</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9488775,52.1833342,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cmentarz Karaimski</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9438119,52.2308963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cmentarz Powstańców Warszawy</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9341093,52.2266479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hala Mirowska</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9973431,52.2388775,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hala Koszyki</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            21.0115264,52.2224832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Powązki</name>
+        <styleUrl>#icon-1899-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            20.9718717,52.2447396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
